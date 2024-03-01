@@ -9,10 +9,10 @@ type ButtonPropsType ={
 	// second?: boolean
 }
 export const Button = styled.button<ButtonPropsType>`
-    position: relative;
+    position: absolute;
     left: 20px;
     top: 298px;
-    margin-left: 20px;
+    
 	
     width: 86px;
     height: 30px;
@@ -49,6 +49,10 @@ export const Button = styled.button<ButtonPropsType>`
         box-shadow: 5px 5px 5px 1px #a69090;
     `}
 
+`
+
+export const Button2 = styled(Button)`
+    left: 118px;
 `
 
 
