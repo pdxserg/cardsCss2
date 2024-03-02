@@ -9,7 +9,7 @@ type ButtonPropsType ={
 	// second?: boolean
 }
 export const Button = styled.button<ButtonPropsType>`
-    position: absolute;
+    //position: absolute;
     left: 20px;
     top: 298px;
     

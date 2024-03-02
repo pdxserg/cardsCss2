@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const NameCard = styled.h1`
-    position: absolute;
+    //position: absolute;
     background-color: rgb(255, 255, 255);
    left: 20px;
    top: 200px;
@@ -13,7 +13,7 @@ export const NameCard = styled.h1`
 	
 `
 export const Description = styled.p`
-    position: absolute;
+    //position: absolute;
     left: 20px;
     top: 239px;
     background-color: rgb(255, 255, 255);
